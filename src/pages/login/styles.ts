@@ -10,7 +10,7 @@ export const style = StyleSheet.create({
 
     },
     boxTop: {
-        height: Dimensions.get('window').height / 3,
+        height: Dimensions.get('window').height / 5,
         // backgroundColor: 'red',
         width: '100%',
         alignItems: 'center',
@@ -22,7 +22,8 @@ export const style = StyleSheet.create({
         // backgroundColor: 'green',
         width: '100%',
         paddingHorizontal: 37,
-        paddingVertical: 20
+        paddingBottom: 50,
+        paddingTop: 30
     },
     boxBottom: {
         paddingTop: 10,
@@ -40,8 +41,7 @@ export const style = StyleSheet.create({
     text: {
         fontWeight: 'bold',
         marginTop: 40,
-
-        fontSize: 18,
+        fontSize: 30,
     },
     titleInput: {
         marginLeft: 5,
@@ -50,9 +50,9 @@ export const style = StyleSheet.create({
     },
     boxInput: {
         width: '100%',
-        height: 40,
+        height: 50,
         borderWidth: 1,
-        borderRadius: 40,
+        borderRadius: 8,
         marginTop: 10,
         flexDirection: 'row',
         alignItems: 'center',
@@ -86,7 +86,7 @@ export const style = StyleSheet.create({
         fontWeight: 'bold',
     },
     textBottom: {
-        paddingTop: 20,
+        paddingTop: 40,
         fontSize: 18,
         color: themas.colors.gray,
     }

@@ -98,8 +98,7 @@ export default function Login() {
                     }
 
                 </TouchableOpacity>
-                <Text style={style.textBottom}>Não tem conta?
-                    <Text style={{ color: '#878af6', textDecorationLine: 'underline' }}> Crie Agora</Text>
+                <Text style={style.textBottom}>Não tem conta? - <Text style={{ color: '#878af6', textDecorationLine: 'underline' }}>Crie Agora</Text>
                 </Text>
             </View>
         </View>
